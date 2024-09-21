@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    text-align: center;
+    text-decoration: none;
+    background-color: #0f97558f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h1{
+    font-family: "Fascinate Inline", system-ui;
+    font-weight: 800;
+}
+
+p{
+    font-family:"Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.navigate-button {
+    padding: 15px 30px;
+    background-color: #275b80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color: #479658;
+}

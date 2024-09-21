@@ -1,0 +1,75 @@
+body {
+    font-family:"Fascinate Inline", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#namaDisplay{
+    font-family:cursive;
+    color: black;
+}
+
+#nimDisplay{
+    font-family:cursive;
+    color: black;
+}
+
+.result-container {
+    background-color: #ffffffc6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 50%;
+    max-width: 500px;
+    display: none;
+}
+
+.result-container p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.input-container {
+    text-align: center;
+    background-color: rgba(130, 55, 8, 0.571);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navigate-button {
+    padding: 19px 19px;
+    background-color: #1a7d2c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.navigate-button:hover {
+    background-color: #396843;
+}
+
+.start-button {
+    padding: 15px 20px;
+    background-color: #751de9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.start-button:hover {
+    background-color: #45a049;
+}
